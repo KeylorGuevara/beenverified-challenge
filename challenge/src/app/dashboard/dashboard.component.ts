@@ -15,9 +15,11 @@ export class DashboardComponent implements OnInit {
 
   quote= "Loading your profile..."
   email= "Your email.has been found!"
+  private urlApi="/hk/dd/teaser/email?email=skip.sudva@beenverified.com"
 
   ngOnInit() {
-    let obs = this.http.get('https://www.beenverified.com/hk/dd/teaser/email?email=skip.suva@beenverified.com')
+    
+    let obs = this.http.get("/hk/dd/teaser/email?email=skip.sudva@beenverified.com")
     obs.subscribe((response)=> console.log(response))
 
 
