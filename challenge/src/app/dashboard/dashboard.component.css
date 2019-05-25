@@ -1,0 +1,42 @@
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .mensajeNavbar{
+        font-size: 10px;
+        margin-right: 2em;
+        margin-top: 0.5em;
+        color: #FFFFFF;
+    
+    }
+ }
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .mensajeNavbar{
+        font-size: 20px;
+        margin-right: 2em;
+        margin-top: 0.5em;
+        color: #FFFFFF;
+    
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .mensajeNavbar{
+    font-size: 25px;
+    margin-right: 2em;
+    margin-top: 0.5em;
+    color: #FFFFFF;
+} 
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .mensajeNavbar{
+        font-size: 25px;
+        margin-right: 2em;
+        margin-top: 0.5em;
+        color: #FFFFFF;
+    
+    }
+ }

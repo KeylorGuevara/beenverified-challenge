@@ -2,6 +2,11 @@
     "/api": {
         "target": "http://localhost:1234",
         "secure": false,
-        "changeOrigen": true
+        "changeOrigin": true
+    },
+    "/hk/dd/teaser/email?email=":{
+        "target": "https://www.beenverified.com",
+        "secure": false,
+        "changeOrigin": true
     }
 }
